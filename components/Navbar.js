@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react';
 function NavLink({to, children}) {
   const router = useRouter();
 
-  return <Link href={to} className={`flex items-center font-medium font-Kanit p-4 hover:text-primary active:text-primary ${router.asPath === to ? "text-primary" : "text-body"}`}>
+  return <Link href={to} className={`flex items-center font-medium font-Kanit p-4 hover:text-primary ${router.asPath === to ? "text-primary" : "text-white"}`}>
     {children}
   </Link>
 }
@@ -52,7 +52,7 @@ function Navbar() {
 
   return (
     <header className={`sticky top-0 z-10 ${shadow}`}>
-    <nav className="flex items-center w-screen filter bg-white py-4 h-16 md:container">
+    <nav className="flex items-center w-screen filter bg-bgBody py-4 h-16 md:container">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center lg:w-2/12 xl:w-3/12">
                 <NavLink to="/">
@@ -64,11 +64,11 @@ function Navbar() {
                     setOpen(!open)
                 }}>
                     {/* hamburger button */}
-                    <span className={`h-1 w-full bg-secondary rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-2.5" : ""}`} />
-                    <span className={`h-1 w-full bg-secondary rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
-                    <span className={`h-1 w-full bg-secondary rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-2.5" : ""}`} />
+                    <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-2.5" : ""}`} />
+                    <span className={`h-1 w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
+                    <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-2.5" : ""}`} />
                 </div>
-                <div className="hidden bg-white md:flex md:space-x-4 lg:space-x-2">
+                <div className="hidden md:flex md:space-x-4 lg:space-x-2">
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/project">Project</NavLink>
                     <NavLink to="/blog">Blog</NavLink>

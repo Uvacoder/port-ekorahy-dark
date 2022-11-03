@@ -1,5 +1,8 @@
 import Head from 'next/head';
+import AffirmationSection from '../components/AffirmationSection';
 import Hero from '../components/Hero';
+import SelectedProject from '../components/SelectedProject';
+import TechStack from '../components/TechStack';
 
 export default function Home() {
   return (
@@ -12,8 +15,11 @@ export default function Home() {
         />
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
-      <main className="bg-white md:py-10 md:container">
+      <main className="md:py-10 md:container">
         <Hero />
+        <SelectedProject />
+        <TechStack />
+        <AffirmationSection />
       </main>
     </>
   )
