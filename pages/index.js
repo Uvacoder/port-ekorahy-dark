@@ -15,7 +15,7 @@ export default function Home() {
         />
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
-      <main className="md:py-10 md:container">
+      <main className="mt-8 mb-20 md:mt-10 md:container">
         <Hero />
         <SelectedProject />
         <TechStack />

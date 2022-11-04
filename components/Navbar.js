@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react';
 function NavLink({to, children}) {
   const router = useRouter();
 
-  return <Link href={to} className={`flex items-center font-medium font-Kanit p-4 hover:text-primary ${router.asPath === to ? "text-primary" : "text-white"}`}>
+  return <Link href={to} className={`flex items-center transition duration-300 ease-in-out font-medium font-Kanit p-4 hover:text-primary ${router.asPath === to ? "text-primary" : "text-white"}`}>
     {children}
   </Link>
 }
@@ -35,13 +35,13 @@ function MobileNav({open, setOpen}) {
 
 function Navbar() {
   const [open, setOpen] = useState(false);
-  const [shadow, setShadow] = useState("drop-shadow-none");
+  const [bg, setBg] = useState("bg-bgPrimary");
 
   const listenScrollEvent = (event) => {
     if (window.scrollY > 64) {
-      return setShadow("drop-shadow-md");
+      return setBg("bg-bgSecondary");
     } else {
-      return setShadow("drop-shadow-none");
+      return setBg("bg-bgPrimary");
     }
   }
 
@@ -51,7 +51,7 @@ function Navbar() {
   }, [])
 
   return (
-    <header className={`sticky top-0 z-10 ${shadow}`}>
+    <header className={`sticky top-0 z-10 ${bg}`}>
     <nav className="flex items-center w-screen filter bg-bgBody py-4 h-16 md:container">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center lg:w-2/12 xl:w-3/12">
@@ -73,7 +73,7 @@ function Navbar() {
                     <NavLink to="/project">Project</NavLink>
                     <NavLink to="/blog">Blog</NavLink>
                     <NavLink to="/youtube">Youtube</NavLink>
-                    <NavLink to="/contact">Contact</NavLink>
+                    <NavLink to="mailto:ekorahy@gmail.com">Contact</NavLink>
                 </div>
             </div>
         </nav>

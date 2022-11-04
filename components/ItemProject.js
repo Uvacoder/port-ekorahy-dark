@@ -18,14 +18,14 @@ function ItemProject({src, alt}) {
         </div>
         <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
           <div class="flex-row text-center">
-            <h1 class="text-gray-50 font-bold text-lg">Personal Notes App</h1>
-            <p class="text-gray-200 font-medium text-sm">Web Application</p>
+            <h1 class="text-white font-Kanit font-bold text-2xl">Personal Notes App</h1>
+            <p class="text-white/80 font-Roboto text-base">Web Application</p>
           </div>
         </div>
       </div>
       <div className="flex items-center justify-start mt-3">
-        <Link href="/" className="flex items-center font-Kanit text-sm text-body mr-4 hover:text-white lg:text-base"><AiOutlineLink className="mr-1" /> Visit Website</Link>
-        <Link href="/" className="flex items-center font-Kanit text-sm text-body hover:text-white lg:text-base"><BsCodeSlash className="mr-1" /> Full Code</Link>
+        <Link href="/" className="flex items-center transition duration-300 ease-in-out font-Kanit text-sm text-body mr-4 hover:text-white lg:text-base"><AiOutlineLink className="mr-1" />Visit Website</Link>
+        <Link href="/" className="flex items-center transition duration-300 ease-in-out font-Kanit text-sm text-body hover:text-white lg:text-base"><BsCodeSlash className="mr-1" />Full Code & Detail</Link>
       </div>
     </div>
   );

@@ -11,9 +11,10 @@ module.exports = {
         padding: "2rem",
       },
       colors: {
-        bgBody: "#201F1F",
+        bgPrimary: "#201F1F",
+        bgSecondary: "#161616",
         primary: "#a21caf",
-        secondary: "#251D3A",
+        secondary: "#ffffff",
         body: "#6b7280",
         linkedin: "#0A66C2",
         github: "#181717",
@@ -42,6 +43,7 @@ module.exports = {
       fontFamily: {
         Kanit: ["Kanit", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],
+        Bungee: ["Bungee Outline", "cursive"],
       }
     },
   },
