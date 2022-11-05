@@ -53,10 +53,10 @@ function Education() {
           iconStyle={{ background: "#201F1F", color: "#fff" }}
           icon={
             <Image
-              className="mx-auto mt-1 lg:mt-3.5"
+              className="mx-auto mt-1.5 lg:mt-4"
               src="/education_logo/logo_dicoding.png"
-              width={30}
-              height={30}
+              width={27}
+              height={27}
               alt="logo YAI"
             />
           }
