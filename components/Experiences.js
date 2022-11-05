@@ -30,7 +30,7 @@ function Experiences() {
           <h4 className="font-Kanit text-sm font-semibold mt-1 md:text-base">
             Front-End Web Developer
           </h4>
-          <p className="text-sm text-body font-Roboto font-light mt-2 lg:text-base !important">
+          <p className="text-sm text-body font-Roboto font-light mt-2 !important">
             Make the website look attractive, minimalist and modern using
             React.js, Next.js and Tailwind CSS Framework. also slicing the
             design from figma to be implemented into the Front-End display on
@@ -61,7 +61,7 @@ function Experiences() {
           <h4 className="font-Kanit text-sm font-semibold mt-1 md:text-base">
             Production Operator in Spinning Department
           </h4>
-          <p className="text-sm text-body font-Roboto font-light mt-2 lg:text-base !important">
+          <p className="text-sm text-body font-Roboto font-light mt-2 !important">
             {`Responsible for ensuring that the yarn spinning machine is kept clean so that the resulting yarn production is of high quality and also temporarily replaces the position of the production operator in the yarn spinning section when they are at rest, so that the machine can continue to run and can achieve the production targets that have been set.`}
           </p>
         </VerticalTimelineElement>
@@ -81,7 +81,7 @@ function Experiences() {
           <h4 className="font-Kanit text-sm font-semibold mt-1 md:text-base">
             Computer technician
           </h4>
-          <p className="text-sm text-body font-Roboto font-light mt-2 lg:text-base !important">
+          <p className="text-sm text-body font-Roboto font-light mt-2 !important">
             Take responsibility and learn about the ability to assemble
             computers, install operating systems and software, fix problems on
             laptops or PCs and fix problems on printers (spesific to modification printers). And also be responsible and learn to

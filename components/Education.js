@@ -37,7 +37,7 @@ function Education() {
           <h4 className="font-Kanit text-sm font-semibold mt-1 md:text-base">
             Informatics/Computer Science
           </h4>
-          <p className="text-sm text-body font-Roboto font-light mt-2 lg:text-base !important">
+          <p className="text-sm text-body font-Roboto font-light mt-2 !important">
             In my lectures I learned a lot of material about informatics study
             programs such as networks, artificial intelligence and software
             engineering. but I chose to focus on studying software engineering,
@@ -70,7 +70,7 @@ function Education() {
             Studi Independen Bersertifikat Kampus Merdeka Program Batch 2 -
             Learning Path (Front-End Web and Back-End Developer)
           </h4>
-          <p className="text-sm text-body font-Roboto font-light mt-2 lg:text-base !important">
+          <p className="text-sm text-body font-Roboto font-light mt-2 !important">
             In this program I learned many things, in terms of hard-skill I
             learned about front-end web development using HTML, CSS, and
             Javascript. and from Back-End side, I learned to create RESTful API
@@ -109,7 +109,7 @@ function Education() {
           <h4 className="font-Kanit text-sm font-semibold mt-1 md:text-base">
             Computer and Network Engineering
           </h4>
-          <p className="text-sm text-body font-Roboto font-light mt-2 lg:text-base !important">
+          <p className="text-sm text-body font-Roboto font-light mt-2 !important">
           learn many things about computer and network engineering majors, such as assembling computers, operating system installations, peripheral maintenance, installing UTP cables, installing and configuring Local Networks (LAN), Internet Networks (WAN), Wireless Networks (WLAN), Servers/ Router (Hotspot), and DHCP Server.
           </p>
         </VerticalTimelineElement>
