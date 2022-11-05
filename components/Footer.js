@@ -20,7 +20,7 @@ function Footer() {
             <ButtonIconSocial to="https://github.com/ekorahy" className="md:mr-0 md:ml-3" icon={<AiFillGithub />} color="text-body" title="button to Github" />
             <ButtonIconSocial to="/" className="md:mr-0 md:ml-3" icon={<AiFillYoutube />} color="text-body" title="button to Youtube" />
             <ButtonIconSocial to="https://www.instagram.com/ekorahy/" className="md:mr-0 md:ml-3" icon={<AiOutlineInstagram />} color="text-body" title="button to Instagram" />
-            <ButtonIconSocial to="https://wa.me/08813536127" className="md:mr-0 md:ml-3" icon={<AiOutlineWhatsApp />} color="text-body" title="button to WhatsApp" />
+            <ButtonIconSocial to="https://wa.me/+628813536127" className="md:mr-0 md:ml-3" icon={<AiOutlineWhatsApp />} color="text-body" title="button to WhatsApp" />
           </div>
         </div>
       </div>

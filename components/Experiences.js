@@ -13,7 +13,7 @@ function Experiences() {
       <h1 className="text-white font-bold font-Kanit text-lg mb-2 md:text-xl lg:text-center lg:text-2xl">
         Experiences
       </h1>
-      <VerticalTimeline>
+      <VerticalTimeline animate={false}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(107 114 128 / 0.1)", color: "#fff" }}
@@ -31,9 +31,10 @@ function Experiences() {
             Front-End Web Developer
           </h4>
           <p className="text-sm text-body font-Roboto font-light mt-2 lg:text-base !important">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et libero
-            atque ducimus nulla. Sunt eum voluptates adipisci facilis! Ipsam,
-            quam?
+            Make the website look attractive, minimalist and modern using
+            React.js, Next.js and Tailwind CSS Framework. also slicing the
+            design from figma to be implemented into the Front-End display on
+            the website.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -50,7 +51,7 @@ function Experiences() {
               src="/experience_logo/logo_sritex.png"
               width={35}
               height={35}
-              alt="logo Sritex"
+              alt="Logo PT. Sri Rejeki Isman, Tbk (Sritex)"
             />
           }
         >
@@ -61,9 +62,7 @@ function Experiences() {
             Production Operator in Spinning Department
           </h4>
           <p className="text-sm text-body font-Roboto font-light mt-2 lg:text-base !important">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et libero
-            atque ducimus nulla. Sunt eum voluptates adipisci facilis! Ipsam,
-            quam?
+            {`Responsible for ensuring that the yarn spinning machine is kept clean so that the resulting yarn production is of high quality and also temporarily replaces the position of the production operator in the yarn spinning section when they are at rest, so that the machine can continue to run and can achieve the production targets that have been set.`}
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -72,7 +71,7 @@ function Experiences() {
           contentArrowStyle={{
             borderRight: "7px solid  rgb(107 114 128 / 0.1)",
           }}
-          date="-"
+          date="Jul 2016 - Sep 2016"
           iconStyle={{ background: "#201F1F", color: "#fff" }}
           icon={<MdOutlineWork />}
         >
@@ -83,9 +82,10 @@ function Experiences() {
             Computer technician
           </h4>
           <p className="text-sm text-body font-Roboto font-light mt-2 lg:text-base !important">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et libero
-            atque ducimus nulla. Sunt eum voluptates adipisci facilis! Ipsam,
-            quam?
+            Take responsibility and learn about the ability to assemble
+            computers, install operating systems and software, fix problems on
+            laptops or PCs and fix problems on printers (spesific to modification printers). And also be responsible and learn to
+            communicate with customers.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

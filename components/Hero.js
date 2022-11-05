@@ -43,7 +43,7 @@ function Hero() {
             <ButtonIconSocial to="https://www.linkedin.com/in/eko-rahayu-widodo-989416231/" icon={<AiFillLinkedin />} color="text-body" title="button to Linkedin" />
             <ButtonIconSocial to="https://github.com/ekorahy" icon={<AiFillGithub />} color="text-body" title="button to Github" />
             <ButtonIconSocial to="https://www.instagram.com/ekorahy/" icon={<AiOutlineInstagram />} color="text-body" title="button to Instagram" />
-            <ButtonIconSocial to="https://wa.me/08813536127" icon={<AiOutlineWhatsApp />} color="text-body" title="button to WhatsApp" />
+            <ButtonIconSocial to="https://wa.me/+628813536127" icon={<AiOutlineWhatsApp />} color="text-body" title="button to WhatsApp" />
           </div>
           <div className="mt-3 lg:mt-4 lg:ml-2">
             <Link href="/" className="flex items-center transition duration-300 ease-in-out text-sm font-bold text-primary hover:text-fuchsia-600"><HiDownload className="text-lg mr-2" /> Download CV</Link>
