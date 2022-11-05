@@ -16,11 +16,11 @@ function Footer() {
           <h2 className="font-Kanit text-white font-bold text-lg lg:text-2xl">Get in touch</h2>
           <p className="font-Roboto text-body text-sm">For business inquiry please send email to <Link href="mailto:ekorahy@gmail.com" className="transition duration-300 ease-in-out underline font-semibold hover:text-white">ekorahy@gmail.com</Link></p>
           <div className="flex items-center mt-3 lg:mt-4">
-            <ButtonIconSocial to="/" className="md:mr-0 md:ml-3" icon={<AiFillLinkedin />} color="text-body" title="button to Linkedin" />
-            <ButtonIconSocial to="/" className="md:mr-0 md:ml-3" icon={<AiFillGithub />} color="text-body" title="button to Github" />
+            <ButtonIconSocial to="https://www.linkedin.com/in/eko-rahayu-widodo-989416231/" className="md:mr-0 md:ml-3" icon={<AiFillLinkedin />} color="text-body" title="button to Linkedin" />
+            <ButtonIconSocial to="https://github.com/ekorahy" className="md:mr-0 md:ml-3" icon={<AiFillGithub />} color="text-body" title="button to Github" />
             <ButtonIconSocial to="/" className="md:mr-0 md:ml-3" icon={<AiFillYoutube />} color="text-body" title="button to Youtube" />
-            <ButtonIconSocial to="/" className="md:mr-0 md:ml-3" icon={<AiOutlineInstagram />} color="text-body" title="button to Instagram" />
-            <ButtonIconSocial to="/" className="md:mr-0 md:ml-3" icon={<AiOutlineWhatsApp />} color="text-body" title="button to WhatsApp" />
+            <ButtonIconSocial to="https://www.instagram.com/ekorahy/" className="md:mr-0 md:ml-3" icon={<AiOutlineInstagram />} color="text-body" title="button to Instagram" />
+            <ButtonIconSocial to="https://wa.me/08813536127" className="md:mr-0 md:ml-3" icon={<AiOutlineWhatsApp />} color="text-body" title="button to WhatsApp" />
           </div>
         </div>
       </div>

@@ -39,11 +39,11 @@ function Hero() {
         </h1>
           <p className="text-body font-Roboto text-sm mt-3 leading-relaxed lg:text-base lg:mt-4 lg:w-4/5">{`from Jakarta, Indonesia. Someone who is highly motivated to continue to grow, likes challenges and able to work in a team or individually. I always give the best effort for each projects I did and I give a solution with my creative app.`}</p>
           <div className="flex items-center mt-3 lg:mt-4">
-            <ButtonBgPrimary to="/" icon={<TfiEmail />} className="mr-3" description="Email Me" />
-            <ButtonIconSocial to="/" icon={<AiFillLinkedin />} color="text-body" title="button to Linkedin" />
-            <ButtonIconSocial to="/" icon={<AiFillGithub />} color="text-body" title="button to Github" />
-            <ButtonIconSocial to="/" icon={<AiOutlineInstagram />} color="text-body" title="button to Instagram" />
-            <ButtonIconSocial to="/" icon={<AiOutlineWhatsApp />} color="text-body" title="button to WhatsApp" />
+            <ButtonBgPrimary to="mailto:ekorahy@gmail.com" icon={<TfiEmail />} className="mr-3" description="Email Me" />
+            <ButtonIconSocial to="https://www.linkedin.com/in/eko-rahayu-widodo-989416231/" icon={<AiFillLinkedin />} color="text-body" title="button to Linkedin" />
+            <ButtonIconSocial to="https://github.com/ekorahy" icon={<AiFillGithub />} color="text-body" title="button to Github" />
+            <ButtonIconSocial to="https://www.instagram.com/ekorahy/" icon={<AiOutlineInstagram />} color="text-body" title="button to Instagram" />
+            <ButtonIconSocial to="https://wa.me/08813536127" icon={<AiOutlineWhatsApp />} color="text-body" title="button to WhatsApp" />
           </div>
           <div className="mt-3 lg:mt-4 lg:ml-2">
             <Link href="/" className="flex items-center transition duration-300 ease-in-out text-sm font-bold text-primary hover:text-fuchsia-600"><HiDownload className="text-lg mr-2" /> Download CV</Link>

@@ -24,7 +24,7 @@ function ItemProject({src, alt}) {
         </div>
       </div>
       <div className="flex items-center justify-start mt-3">
-        <Link href="/" className="flex items-center transition duration-300 ease-in-out font-Kanit text-sm text-body mr-4 hover:text-white lg:text-base"><AiOutlineLink className="mr-1" />Visit Website</Link>
+        <Link href="https://personal-notes-app-ekorahy.vercel.app/" className="flex items-center transition duration-300 ease-in-out font-Kanit text-sm text-body mr-4 hover:text-white lg:text-base"><AiOutlineLink className="mr-1" />Visit Website</Link>
         <Link href="/" className="flex items-center transition duration-300 ease-in-out font-Kanit text-sm text-body hover:text-white lg:text-base"><BsCodeSlash className="mr-1" />Full Code & Detail</Link>
       </div>
     </div>

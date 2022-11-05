@@ -27,7 +27,7 @@ function MobileNav({open, setOpen}) {
           <NavLinkMobile to="/project" setOpen={setOpen}>Project</NavLinkMobile>
           <NavLinkMobile to="/youtube" setOpen={setOpen}>Youtube</NavLinkMobile>
           <NavLinkMobile to="/blog" setOpen={setOpen}>Blog</NavLinkMobile>
-          <NavLinkMobile to="/contact" setOpen={setOpen}>Contact</NavLinkMobile>
+          <NavLinkMobile to="mailto:ekorahy@gmail.com" setOpen={setOpen}>Contact</NavLinkMobile>
         </div>  
     </div>
   );
