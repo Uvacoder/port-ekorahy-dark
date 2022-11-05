@@ -6,7 +6,7 @@ import { SiHtml5, SiCss3, SiJavascript, SiPhp, SiDart, SiMysql, SiMongodb, SiNod
 function TechStack() {
   return (
     <section id="techStack" className="mx-4 mt-20">
-      <h1 className="text-white font-bold font-Kanit text-lg md:text-xl md:text-center">Tech Stack</h1>
+      <h1 className="text-white font-bold font-Kanit text-lg md:text-xl md:text-center lg:text-2xl">Tech Stack</h1>
       <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-2 lg:grid-cols-3">
        {/* language Section */}
         <div className="p-4 border rounded">
