@@ -1,12 +1,18 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { AiOutlineLink } from "react-icons/ai";
 import { BsCodeSlash } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function ItemProject({src, alt}) {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
-    <div>
+    <div data-aos="fade-up" data-aos-duration="700">
       <div class="relative group">
         <Image
           src={src}

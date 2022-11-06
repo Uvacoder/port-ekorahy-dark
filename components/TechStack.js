@@ -1,15 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ItemTech from './ItemTech';
 import TitleTechStack from './TitleTechStack';
 import { SiHtml5, SiCss3, SiJavascript, SiPhp, SiDart, SiMysql, SiMongodb, SiNodedotjs, SiNextdotjs, SiReact, SiBootstrap, SiTailwindcss, SiVisualstudiocode, SiAndroidstudio, SiFlutter, SiNetlify, SiVercel, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function TechStack() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <section id="techStack" className="mx-4 mt-20">
       <h1 className="text-white font-bold font-Kanit text-lg text-center md:text-xl lg:text-2xl">Tech Stack</h1>
       <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-2 lg:grid-cols-3">
        {/* language Section */}
-        <div className="p-4 border rounded">
+        <div data-aos="fade-up" data-aos-duration="700" className="p-4 border rounded">
           <TitleTechStack title="Language" />
           <div className="mx-2">
             <ItemTech icon={<SiHtml5 />} colorIcon="text-html5" description="HTML5" />
@@ -21,7 +27,7 @@ function TechStack() {
         </div>
 
         {/* Databases Section */}
-        <div className="p-4 border rounded">
+        <div data-aos="fade-up" data-aos-duration="700" className="p-4 border rounded">
           <TitleTechStack title="Databases" />
           <div className="mx-2">
             <ItemTech icon={<SiMysql />} colorIcon="text-mysql" description="MySQL" />
@@ -30,7 +36,7 @@ function TechStack() {
         </div>
 
         {/* Frameworks (Full Stack) Section */}
-        <div className="p-4 border rounded">
+        <div data-aos="fade-up" data-aos-duration="700" className="p-4 border rounded">
           <TitleTechStack title="Frameworks (Full Stack)" />
           <div className="mx-2">
             <ItemTech icon={<SiNodedotjs />} colorIcon="text-nodejs" description="Node.js" />
@@ -39,7 +45,7 @@ function TechStack() {
         </div>
 
         {/* Javascript UI Section */}
-        <div className="p-4 border rounded">
+        <div data-aos="fade-up" data-aos-duration="700" className="p-4 border rounded">
           <TitleTechStack title="Javascript UI" />
           <div className="mx-2">
             <ItemTech icon={<SiReact />} colorIcon="text-reactjs" description="React.js" />
@@ -47,7 +53,7 @@ function TechStack() {
         </div>
 
         {/* Front-End Frameworks Section */}
-        <div className="p-4 border rounded">
+        <div data-aos="fade-up" data-aos-duration="700" className="p-4 border rounded">
           <TitleTechStack title="Front-End Frameworks" />
           <div className="mx-2">
             <ItemTech icon={<SiBootstrap />} colorIcon="text-bootstrap" description="Bootstrap" />
@@ -56,7 +62,7 @@ function TechStack() {
         </div>
 
         {/* IDE Section */}
-        <div className="p-4 border rounded">
+        <div data-aos="fade-up" data-aos-duration="700" className="p-4 border rounded">
           <TitleTechStack title="IDE" />
           <div className="mx-2">
             <ItemTech icon={<SiVisualstudiocode />} colorIcon="text-vcs" description="Visual Studio Code" />
@@ -65,7 +71,7 @@ function TechStack() {
         </div>
 
         {/* Cross-Platform Mobile Section */}
-        <div className="p-4 border rounded">
+        <div data-aos="fade-up" data-aos-duration="700" className="p-4 border rounded">
           <TitleTechStack title="Cross-Platform Mobile" />
           <div className="mx-2">
             <ItemTech icon={<SiFlutter />} colorIcon="text-flutter" description="Flutter" />
@@ -73,7 +79,7 @@ function TechStack() {
         </div>
 
         {/* Static Web Hosting Section */}
-        <div className="p-4 border rounded">
+        <div data-aos="fade-up" data-aos-duration="700" className="p-4 border rounded">
           <TitleTechStack title="Static Web Hosting" />
           <div className="mx-2">
             <ItemTech icon={<SiNetlify />} colorIcon="text-netlify" description="Netlify" />
@@ -82,7 +88,7 @@ function TechStack() {
         </div>
 
         {/* Graphic Design Section */}
-        <div className="p-4 border rounded">
+        <div data-aos="fade-up" data-aos-duration="700" className="p-4 border rounded">
           <TitleTechStack title="Graphic Design" />
           <div className="mx-2">
             <ItemTech icon={<SiAdobephotoshop />} colorIcon="text-ps" description="Adobe Photoshop" />

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { useEffect } from 'react';
 import ButtonBgPrimary from './ButtonBgPrimary';
 import { TfiEmail } from "react-icons/tfi";
 import ButtonIconSocial from './ButtonIconSocial';
@@ -16,7 +16,7 @@ function Hero() {
     "Mobile Developer",
   ];
 
-  React.useEffect(() => {
+  useEffect(() => {
     const intervalId = setInterval(() =>
       setIndex(index => index + 1),
       2000

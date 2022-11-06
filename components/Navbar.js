@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
+import { IoIosArrowUp } from "react-icons/io";
 
 function NavLink({to, children}) {
   const router = useRouter();
@@ -36,12 +37,19 @@ function MobileNav({open, setOpen}) {
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [bg, setBg] = useState("bg-bgPrimary");
+  const [visibility, setVisibility] = useState("hidden");
 
   const listenScrollEvent = (event) => {
     if (window.scrollY > 64) {
-      return setBg("bg-bgSecondary");
+      return (
+        setBg("bg-bgSecondary"),
+        setVisibility("block")
+      )
     } else {
-      return setBg("bg-bgPrimary");
+      return (
+        setBg("bg-bgPrimary"),
+        setVisibility("hidden")
+      )
     }
   }
 
@@ -51,6 +59,7 @@ function Navbar() {
   }, [])
 
   return (
+    <>
     <header className={`sticky top-0 z-10 ${bg}`}>
     <nav className="flex items-center w-screen filter bg-bgBody py-4 h-16 md:container">
             <MobileNav open={open} setOpen={setOpen}/>
@@ -78,6 +87,8 @@ function Navbar() {
             </div>
         </nav>
       </header>
+      <Link href="/" className={`fixed bottom-8 right-4 z-10 p-2 bg-primary transition duration-300 ease-in-out text-white text-xl rounded-full ${visibility} hover:bg-fuchsia-600 md:right-8 md:text-2xl lg:right-12`}><IoIosArrowUp /></Link>
+      </>
   );
 }
 
