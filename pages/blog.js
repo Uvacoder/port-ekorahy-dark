@@ -6,7 +6,7 @@ function blog() {
   return (
     <>
       <Head>
-        <title>Blog | Ekorahy</title>
+        <title>Blog - Ekorahy</title>
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
 

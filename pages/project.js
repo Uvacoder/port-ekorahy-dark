@@ -6,7 +6,7 @@ function project() {
   return (
     <>
       <Head>
-        <title>All Project | Ekorahy</title>
+        <title>All Project - Ekorahy</title>
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
 

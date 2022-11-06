@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Eko Rahayu Widodo | Web Developer | Mobile Developer</title>
+        <title>Eko Rahayu Widodo - Web and Mobile Developer</title>
         <meta
           name="description"
-          content="Front-end Web developer portfolio | make your website modern and minimalist using React.js."
+          content="Hi there👋, welcome to my profile, I'm Eko Rahayu Widodo Web and Mobile Developer from Jakarta Indonesia. Someone who is highly motivated to continue to grow, likes challenges and able to work in a team or individually. I always give the best effort for each projects I did and I give a solution with my creative app."
         />
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>

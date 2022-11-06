@@ -6,7 +6,7 @@ function youtube() {
   return (
     <>
       <Head>
-        <title>Blog | Ekorahy</title>
+        <title>Youtube - Ekorahy</title>
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
 
