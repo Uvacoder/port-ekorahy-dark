@@ -13,7 +13,7 @@ function Error404() {
 
       <main className="mt-8 mb-20 md:mt-10 md:container">
         <section id="error404" className="mt-20 mx-4">
-          <div className="w-full min-h-screen text-center block mx-auto">
+          <div className="w-full h-max text-center block mx-auto">
             <h1 className="text-secondary font-Bungee text-2xl font-bold md:text-3xl">- ERROR 404 -</h1>
             <h2 className="text-lg text-secondary font-Kanit font-bold lg:text-xl">Page Not Found</h2>
             <p className="text-body font-Kanit font-light text-sm">Sorry, the URL you requested was not found on this server</p>
