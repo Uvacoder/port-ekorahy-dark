@@ -35,6 +35,7 @@ function MobileNav({open, setOpen}) {
 }
 
 function Navbar() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [bg, setBg] = useState("bg-bgPrimary");
   const [visibility, setVisibility] = useState("hidden");
@@ -87,7 +88,7 @@ function Navbar() {
             </div>
         </nav>
       </header>
-      <Link href="/" className={`fixed bottom-8 right-4 z-10 p-2 bg-primary transition duration-300 ease-in-out text-white text-xl rounded-full ${visibility} hover:bg-fuchsia-600 md:right-8 md:text-2xl lg:right-12`}><IoIosArrowUp /></Link>
+      <Link href={router.asPath} title="Jump to top page" className={`fixed bottom-8 right-4 z-10 p-3 bg-primary transition duration-300 ease-in-out text-white text-xl rounded-full ${visibility} hover:bg-fuchsia-600 md:p-4 md:right-8 md:text-2xl lg:right-12`}><IoIosArrowUp /></Link>
       </>
   );
 }
